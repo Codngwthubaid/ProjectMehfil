@@ -301,8 +301,8 @@ nav ul {
     margin-bottom: 8px;
 }
 
-.links div:hover , 
-.suggestedID-UserName div:first-child:hover{
+.links div:hover,
+.suggestedID-UserName div:first-child:hover {
     text-decoration: underline;
     cursor: pointer;
     font-weight: 600;
@@ -315,6 +315,8 @@ nav ul {
 .previous-story:hover,
 .comment-brief:hover,
 .mainSectionThirdBox-2:hover,
-.for-post > img:hover {
+.for-post>img:hover {
     cursor: pointer;
 }
+
+@media screen and (max-width:1079px) {}
